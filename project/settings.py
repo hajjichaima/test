@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-gas3odyqdl3d$(s1r8e^@vkg+*i$*a)&*d#d6l%*n2cztu)$_7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.chaimahajji.app']
+ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = ['.chaimahajji.app']
 
 
 # Application definition
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myapp',
 
     
 ]
